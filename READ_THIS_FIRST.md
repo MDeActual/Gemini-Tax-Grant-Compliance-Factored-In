@@ -27,7 +27,7 @@ Revisit these sections once the missing attachment is available, because they ar
 Build only the shortest production path:
 
 1. Intake business, grant, tax, and telemetry inputs
-2. Normalize them into a single case record
+2. Normalize them into a single `case_record`
 3. Run parallel executive-agent analysis
 4. Aggregate findings through one orchestrator
 5. Produce:
@@ -60,6 +60,8 @@ The orchestrator is the only component allowed to:
 
 The swarm should run in parallel under one orchestrator with these minimum executive roles:
 
+Use the matrix below as the primary role contract for the MVP startup package.
+
 Role | Department | Build Responsibility | Operating Responsibility
 --- | --- | --- | ---
 CEO / Chief of Staff Orchestrator | Executive Office | sets priorities, sequencing, and approvals | runs cadence, decisions, and escalations
@@ -70,6 +72,17 @@ Chief Compliance Officer | Compliance | defines rules, evidence, and filing cont
 CISO | Security | defines telemetry review, control checks, and risk thresholds | manages risk register and security incidents
 CLO / General Counsel | Legal | reviews regulatory language, disclaimers, and exposure | manages legal review and policy changes
 CRO / Revenue Lead | Growth | defines ICP, pipeline, and offer packaging | manages go-to-market execution
+
+Role checklist fallback:
+
+- CEO / Chief of Staff Orchestrator — Executive Office — builds priorities and approvals; manages cadence and escalations
+- CTO — Product + Engineering — builds architecture and integrations; manages uptime and backlog
+- COO — Operations — builds workflows and SLAs; manages service quality
+- CFO — Finance — builds cost controls and budget guardrails; manages burn and reporting
+- Chief Compliance Officer — Compliance — builds evidence and filing controls; manages audits and exceptions
+- CISO — Security — builds telemetry mapping and severity thresholds; manages incidents and the risk register
+- CLO / General Counsel — Legal — builds legal language and review checklists; manages policy change workflow
+- CRO / Revenue Lead — Growth — builds offer packaging and onboarding flow; manages pipeline and adoption
 
 ## Parallel Work Pattern
 

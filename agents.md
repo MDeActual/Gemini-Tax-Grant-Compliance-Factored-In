@@ -127,7 +127,7 @@ Manages:
 
 ## Shared Operating Rules
 
-1. All agents work from the same case record.
+1. All agents work from the same `case_record`.
 2. All major workstreams begin in parallel unless blocked by dependencies.
 3. The orchestrator resolves conflicts; specialists do not self-override each other.
 4. Security, compliance, and legal are release gates, not advisory-only roles.
