@@ -1,12 +1,16 @@
 # Required: identifies the target operating model.
+# Allowed value in this starter template: `DevOS`.
+# Consumers may keep `DevOS` as-is or map it to an internal platform label while preserving the same semantics.
 platform: DevOS
 # Required: allows consumers to validate and migrate this schema over time.
+# Start with integer `1`; increment only for breaking schema changes to top-level sections or their required meanings.
 config_version: 1
 # Illustrative: explains how this starter template should be used.
 template_purpose: Bootstrap template for a DevOS orchestrator and parallel executive-agent swarm
 # Illustrative: describes the expected consumer of this file.
 intended_consumer: Adapt this file into the team's DevOS runtime or orchestration layer before production use
 # Required: these sections should be preserved when adapting the template.
+# Sections marked Required define the minimum schema contract. Sections marked Illustrative are recommended defaults that may be extended without breaking compatibility.
 required_sections:
   - orchestrator
   - swarm

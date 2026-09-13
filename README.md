@@ -38,6 +38,8 @@ Before adapting `devos.yaml`, have:
 
 For this package, "DevOS-compatible" means the runtime can orchestrate role-based workflows, execute executive agents in parallel, enforce approval gates, and persist shared artifacts and decision logs.
 
+In this repository, "DevOS" is a repository-defined operating template for executive-agent orchestration rather than a bundled executable product. Consumers should map the template to their own workflow engine, agent runtime, or orchestration platform.
+
 ## Source Note
 
 No additional attachment was present in the repository snapshot. The package in this repository is derived from the canonical source text captured in `SOURCE_BRIEF.md`.
