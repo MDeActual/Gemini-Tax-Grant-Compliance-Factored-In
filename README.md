@@ -7,6 +7,7 @@ Documentation and template startup package for a fast MVP focused on grant-ready
 - `READ_THIS_FIRST.md` — the fastest path to a production MVP in the next few hours
 - `agents.md` — executive AI swarm roles, responsibilities, rules, and orchestration model
 - `devos.yaml` — DevOS-oriented operating template for the orchestrator and parallel agent swarm
+- `SOURCE_BRIEF.md` — canonical source text used to build this package
 
 ## Current Focus
 
@@ -28,4 +29,4 @@ This package is intentionally documentation-first: it defines the operating mode
 
 ## Source Note
 
-No additional attachment was present in the repository snapshot, so these repository documents are derived from the issue brief and the original repository summary.
+No additional attachment was present in the repository snapshot. The package in this repository is derived from the canonical source text captured in `SOURCE_BRIEF.md`.
