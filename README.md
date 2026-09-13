@@ -26,4 +26,4 @@ This repository now contains a lightweight operating package for standing up:
 
 ## Source Note
 
-No additional attachment was present in the repository snapshot, so these repository documents are derived from the problem statement and the existing project brief.
+No additional attachment was present in the repository snapshot, so these repository documents are derived from the issue brief and the original repository summary.

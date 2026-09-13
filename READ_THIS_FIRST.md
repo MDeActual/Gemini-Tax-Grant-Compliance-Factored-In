@@ -11,7 +11,7 @@ Ship a credible MVP in the next few hours for:
 
 ## Constraint
 
-The repository snapshot did not include the referenced attachment, so this package uses the existing README plus the issue brief as the working source of truth.
+The repository snapshot did not include the referenced attachment, so this package uses the issue brief and the original repository summary as the working source of truth.
 
 ## Recommended MVP
 
