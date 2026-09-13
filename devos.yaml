@@ -1,4 +1,12 @@
 platform: DevOS
+template_purpose: Bootstrap template for a DevOS orchestrator and parallel executive-agent swarm
+intended_consumer: Adapt this file into the team's DevOS runtime or orchestration layer before production use
+required_sections:
+  - orchestrator
+  - swarm
+  - release_gates
+  - outputs
+  - operating_rules
 
 orchestrator:
   role: CEO / Chief of Staff Orchestrator
