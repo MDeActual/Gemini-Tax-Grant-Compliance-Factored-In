@@ -19,8 +19,8 @@ swarm:
     - CFO
     - Chief Compliance Officer
     - CISO
-    - CLO
-    - CRO
+    - CLO / General Counsel
+    - CRO / Revenue Lead
 
 release_gates:
   - compliance_evidence_present
