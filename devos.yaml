@@ -1,0 +1,42 @@
+platform: DevOS
+
+orchestrator:
+  role: CEO / Chief of Staff Orchestrator
+  mode: human-approved
+  responsibilities:
+    - prioritize_work
+    - run_parallel_swarm
+    - merge_outputs
+    - enforce_release_gates
+    - maintain_decision_log
+
+swarm:
+  execution: parallel
+  shared_record: case-file
+  required_roles:
+    - CTO
+    - COO
+    - CFO
+    - Chief Compliance Officer
+    - CISO
+    - CLO
+    - CRO
+
+release_gates:
+  - compliance_evidence_present
+  - legal_review_complete
+  - security_severity_thresholds_set
+  - production_budget_approved
+  - department_owners_assigned
+
+outputs:
+  - compliance_risk_summary
+  - security_gap_summary
+  - penalty_exposure_summary
+  - grant_readiness_checklist
+  - executive_action_plan
+
+operating_rules:
+  - no_missing_evidence_may_be_assumed_compliant
+  - no_critical_risk_without_explicit_signoff
+  - all_agents_must_build_then_manage_department
