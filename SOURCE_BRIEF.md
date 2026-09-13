@@ -1,10 +1,10 @@
 # SOURCE BRIEF
 
-This file preserves the exact in-repository source inputs used to assemble the startup package.
+This file preserves the in-repository source inputs used to assemble the startup package.
 
 ## Original Repository Summary
 
-> includes everything in a grant application approvable format that includes potential compliance penalties ans securitygaps from secure score telemetry.
+> includes everything in a grant application approvable format that includes potential compliance penalties and security gaps from secure score telemetry.
 
 ## Issue Brief
 

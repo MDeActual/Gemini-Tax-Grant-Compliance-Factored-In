@@ -26,7 +26,7 @@ orchestrator:
 # Required: defines the executive agents that run in parallel.
 swarm:
   execution: parallel
-  shared_record: case-file
+  shared_record: "case record"
   required_roles:
     - CTO
     - COO
