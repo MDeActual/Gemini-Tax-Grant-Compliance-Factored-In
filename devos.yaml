@@ -17,6 +17,19 @@ required_sections:
   - release_gates
   - outputs
   - operating_rules
+schema_metadata:
+  required_keys:
+    - platform
+    - config_version
+    - required_sections
+    - orchestrator
+    - swarm
+    - release_gates
+    - operating_rules
+  illustrative_keys:
+    - template_purpose
+    - intended_consumer
+    - outputs
 
 # Required: defines the single controller for the swarm.
 orchestrator:

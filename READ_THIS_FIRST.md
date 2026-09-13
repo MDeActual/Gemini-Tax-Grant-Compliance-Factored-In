@@ -62,16 +62,16 @@ The swarm should run in parallel under one orchestrator with these minimum execu
 
 Use the matrix below as the primary role contract for the MVP startup package.
 
-Role | Department | Build Responsibility | Operating Responsibility
---- | --- | --- | ---
-CEO / Chief of Staff Orchestrator | Executive Office | sets priorities, sequencing, and approvals | runs cadence, decisions, and escalations
-CTO | Product + Engineering | builds MVP architecture, integrations, and delivery plan | owns engineering backlog and uptime
-COO | Operations | defines workflows, SLAs, and execution lanes | manages operations and service quality
-CFO | Finance | models cost, unit economics, and grant-use controls | owns budgets, burn, and financial controls
-Chief Compliance Officer | Compliance | defines rules, evidence, and filing controls | manages audits, exceptions, and policy upkeep
-CISO | Security | defines telemetry review, control checks, and risk thresholds | manages risk register and security incidents
-CLO / General Counsel | Legal | reviews regulatory language, disclaimers, and exposure | manages legal review and policy changes
-CRO / Revenue Lead | Growth | defines ICP, pipeline, and offer packaging | manages go-to-market execution
+| Role | Department | Build Responsibility | Operating Responsibility |
+| --- | --- | --- | --- |
+| CEO / Chief of Staff Orchestrator | Executive Office | sets priorities, sequencing, and approvals | runs cadence, decisions, and escalations |
+| CTO | Product + Engineering | builds MVP architecture, integrations, and delivery plan | owns engineering backlog and uptime |
+| COO | Operations | defines workflows, SLAs, and execution lanes | manages operations and service quality |
+| CFO | Finance | models cost, unit economics, and grant-use controls | owns budgets, burn, and financial controls |
+| Chief Compliance Officer | Compliance | defines rules, evidence, and filing controls | manages audits, exceptions, and policy upkeep |
+| CISO | Security | defines telemetry review, control checks, and risk thresholds | manages risk register and security incidents |
+| CLO / General Counsel | Legal | reviews regulatory language, disclaimers, and exposure | manages legal review and policy changes |
+| CRO / Revenue Lead | Growth | defines ICP, pipeline, and offer packaging | manages go-to-market execution |
 
 Role checklist fallback:
 
