@@ -1,6 +1,6 @@
 # Gemini-Tax-Grant-Compliance-Factored-In
 
-Startup package for a fast MVP focused on grant-ready tax compliance, secure-score risk review, and executive-run AI operations.
+Documentation and template startup package for a fast MVP focused on grant-ready tax compliance, secure-score risk review, and executive-run AI operations.
 
 ## Start Here
 
@@ -16,6 +16,8 @@ This repository now contains a lightweight operating package for standing up:
 - a parallel AI executive swarm
 - role ownership by department
 - a practical MVP launch sequence
+
+This package is intentionally documentation-first: it defines the operating model, executive swarm roles, and DevOS template needed to launch quickly, but it is not yet a runnable MVP implementation by itself.
 
 ## How To Use This Package
 

@@ -13,6 +13,15 @@ Ship a credible MVP in the next few hours for:
 
 The repository snapshot did not include the referenced attachment, so this package uses the issue brief and the original repository summary as the working source of truth.
 
+## Assumption-Dependent Sections
+
+Revisit these sections once the missing attachment is available, because they are the most assumption-sensitive parts of this package:
+
+- the exact MVP scope in `Recommended MVP`
+- executive role coverage in `AI Swarm Structure`
+- release criteria in `Non-Negotiable Rules`
+- launch sequencing in `Production-in-Hours Launch Sequence`
+
 ## Recommended MVP
 
 Build only the shortest production path:
