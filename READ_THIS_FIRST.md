@@ -106,13 +106,14 @@ Run in parallel:
 
 ### Wave 3 — Launch Gate
 
-The orchestrator merges all outputs and blocks launch unless:
+The orchestrator merges all outputs and blocks launch unless the canonical `release_gates` in `devos.yaml` are satisfied:
 
-- MVP scope is frozen
-- minimum compliance evidence exists
-- telemetry ingestion is working
-- risk severity thresholds are defined
-- executive ownership is assigned by department
+- `minimum_compliance_evidence_present`
+- `telemetry_ingestion_verified`
+- `legal_review_complete`
+- `security_severity_thresholds_set`
+- `production_budget_approved`
+- `department_owners_assigned`
 
 ## Non-Negotiable Rules
 

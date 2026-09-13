@@ -1,5 +1,7 @@
 # Required: identifies the target operating model.
 platform: DevOS
+# Required: allows consumers to validate and migrate this schema over time.
+config_version: 1
 # Illustrative: explains how this starter template should be used.
 template_purpose: Bootstrap template for a DevOS orchestrator and parallel executive-agent swarm
 # Illustrative: describes the expected consumer of this file.
@@ -38,7 +40,8 @@ swarm:
 
 # Required: minimum launch gates before production use.
 release_gates:
-  - compliance_evidence_present
+  - minimum_compliance_evidence_present
+  - telemetry_ingestion_verified
   - legal_review_complete
   - security_severity_thresholds_set
   - production_budget_approved

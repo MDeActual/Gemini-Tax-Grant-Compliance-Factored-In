@@ -36,6 +36,8 @@ Before adapting `devos.yaml`, have:
 - named owners for the executive roles defined in `agents.md`
 - human approval coverage for legal, compliance, finance, and security release gates
 
+For this package, "DevOS-compatible" means the runtime can orchestrate role-based workflows, execute executive agents in parallel, enforce approval gates, and persist shared artifacts and decision logs.
+
 ## Source Note
 
 No additional attachment was present in the repository snapshot. The package in this repository is derived from the canonical source text captured in `SOURCE_BRIEF.md`.
