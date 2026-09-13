@@ -1,6 +1,6 @@
 # Gemini-Tax-Grant-Compliance-Factored-In
 
-Documentation and template startup package for a fast MVP focused on grant-ready tax compliance, secure-score risk review, and executive-run AI operations.
+Documentation and template startup package for a fast MVP focused on grant and tax compliance intake, secure-score telemetry review, executive-run AI operations, and decision-ready risk outputs.
 
 ## Start Here
 
